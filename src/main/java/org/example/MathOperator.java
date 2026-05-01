@@ -21,8 +21,7 @@ public class MathOperator {
         System.out.println("Second Number: ");
         int secondNumber = scanner.nextInt();
         System.out.println("Min is: " + Math.min(firstNumber,secondNumber));
-        scanner.close(); // When scanner is closed can not execute any command that using scanner prompt
-        System.out.println("Gello"); // Still can use because this is not using scanner prompt
+        scanner.close();
 
     }
 

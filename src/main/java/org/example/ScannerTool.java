@@ -15,6 +15,7 @@ public class ScannerTool {
         System.out.println("Your age is: ");
         int age = scanner.nextInt(); // Receive 1 float number from keyboard -> return integer
         System.out.println("My name is "+name+" age "+age);
-        scanner.close();
+        scanner.close(); // When scanner is closed can not execute any command that using scanner prompt
+        System.out.println("Gello"); // Still can use because this is not using scanner prompt
     }
 }
