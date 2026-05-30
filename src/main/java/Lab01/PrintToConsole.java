@@ -1,4 +1,4 @@
-package org.example;
+package Lab01;
 
 public class PrintToConsole {
     public static void main(String[] args) {

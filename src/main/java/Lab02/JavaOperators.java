@@ -1,4 +1,4 @@
-package org.example;
+package Lab02;
 
 public class JavaOperators {
     public static void main(String[] args) {

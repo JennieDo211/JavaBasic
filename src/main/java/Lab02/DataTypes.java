@@ -1,4 +1,4 @@
-package org.example;
+package Lab02;
 
 public class DataTypes {
     public static void main(String[] args) {
