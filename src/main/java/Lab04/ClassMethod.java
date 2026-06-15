@@ -50,8 +50,20 @@ public class ClassMethod {
         return a+b;
     }
 
-    // Sử dụng hàm tính tổng
 
-    
+    public static void main(String[] args) {
+        // Sử dụng hàm tính tổng. Để có thể dùng action của một class ta cần khởi tạo Object của class đó
+        ClassMethod testSumFunction = new ClassMethod();
+
+        // Bất kì khi nào viết code thực thi tính toán cũng cần khai báo một biến để hứng kết quả sau khi tính
+        int result = testSumFunction.sum(5,8);
+        System.out.println("Check sum function: "+result);
+
+
+    }
+
+
+
+
 
 }
