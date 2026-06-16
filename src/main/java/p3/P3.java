@@ -5,11 +5,11 @@ import p1.P;
 public class P3 extends P {
 
     private void test() {
-        P thirdObject = new P();
+/*        P thirdObject = new P();
         thirdObject.a = 18;
         thirdObject.b = 18;
         super.c = 18; // protected
-        thirdObject.d = 18;
+        thirdObject.d = 18;*/
     }
 
 
