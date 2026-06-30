@@ -20,7 +20,6 @@ public class ProductUpdate {
 
     // Getter and Setter
 
-
     public String getName() {
         return name;
     }
